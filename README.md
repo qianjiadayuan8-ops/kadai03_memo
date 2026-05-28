@@ -6,7 +6,7 @@
 消耗品と買い物リストを分けて管理することで、日常の買い忘れを防げるようにしました。
 
 ## ③アプリのデプロイURL
-- https://qianjiadayuan8-ops.github.io/kadai02_janken_rich/
+- https://qianjiadayuan8-ops.github.io/kadai03_memo/
 
 ## ④アプリのログイン用IDまたはPassword（ある場合）
 - ID: 今回なし

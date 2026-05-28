@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>日用品管理アプリ</title>
 </head>
 <body>
-    <div class="tabs">
-    <button class="tab active" data-tab="tab1">消耗品一覧</button>
-    <button class="tab" data-tab="tab2">お買い物リスト</button>
-    </div>
+    <div class="main">
+        <div class="tabs">
+        <button class="tab active" data-tab="tab1">日用品一覧</button>
+        <button class="tab" data-tab="tab2">お買い物リスト</button>
+        </div>
 
-    <div class="tab-content active" id="tab1">
-        <h2>消耗品一覧</h2>
-        <p>消耗品一覧</p>
+        <div class="tab-content active" id="tab1">
+            <h2>日用品一覧</h2>
+            <div class="input">
+                <h3>日用品を登録</h3>
+                    <input type="text" id="name" class="name" placeholder="日用品名を入力">
+                    <input type="file" id="img" class="file">
+                    <label for="img" class="upload-area">
+                    <span>📁 画像をドラッグ or クリック</span>
+                    </label>
+                <button id="add" class="add">＋ 登録</button>
+            </div>
+            <div id="grid" class="product-grid">
+                <!-- ここに追加データ -->
+            </div>
         </div>
 
         <div class="tab-content" id="tab2">
-        <h2>お買い物リスト</h2>
-        <p>お買い物リスト</p>
+            <h2>お買い物リスト</h2>
+            <p>お買い物リスト</p>
         </div>
     </div>
 
